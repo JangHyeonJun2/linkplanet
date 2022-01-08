@@ -5,5 +5,5 @@ import javax.persistence.*;
 @Entity
 public class Friend extends TimeStamped{
     @EmbeddedId
-    private FriendId friendId;
+    private FriendId friendUserId;
 }
